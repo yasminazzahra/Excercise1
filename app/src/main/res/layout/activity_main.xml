@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <ImageView
@@ -37,7 +38,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389"/>
+        app:layout_constraintVertical_bias="0.389" />
 
     <EditText
         android:id="@+id/InpPass"
@@ -48,17 +49,16 @@
         android:background="#ffffff"
         android:ems="10"
         android:hint="@string/tPassword"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446"
-        android:importantForAutofill="no"
         app:layout_constraintTop_toBottomOf="@+id/Inpemail"
-         />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.446" />
 
     <Button
         android:id="@+id/buttonlgn"
@@ -75,10 +75,9 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.585"
         app:layout_constraintTop_toBottomOf="@+id/InpPass"
-         />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
 
     <TextView
         android:id="@+id/tanya"
