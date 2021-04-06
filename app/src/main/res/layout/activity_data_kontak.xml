@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D6C2C2"
     android:orientation="vertical"
     tools:context=".DataKontak">
 
@@ -20,14 +21,14 @@
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_marginTop="20dp"
-        android:queryHint="Pencarian"
-        android:iconifiedByDefault="false" />
+        android:iconifiedByDefault="false"
+        android:queryHint="Pencarian" />
 
     <ListView
-        android:layout_marginTop="20dp"
         android:id="@+id/ListKontak"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:dividerHeight="1dp" />
 </LinearLayout>
