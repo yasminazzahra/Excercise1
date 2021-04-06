@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     bun.putString("Par1", email.trim());
                     bun.putString("Par2", password.trim());
 
-                    Intent intb = new Intent(MainActivity.this, hal2.class);
+                    Intent intb = new Intent(MainActivity.this, DataKontak.class);
                     intb.putExtras(bun);
                     startActivity(new Intent(getApplicationContext(), DataKontak.class));
                 }
